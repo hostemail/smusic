@@ -1,4 +1,4 @@
-# 网络代理软件客户端高级技巧
+# 网络代理软件客户端-高级技巧
 
 博客：https://ccava.cc
 
@@ -51,7 +51,12 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
 # 安卓客户端
+
 SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
+
+### 使用方法
+
+在软件首页 - 路由设置 - 自定义ACL文件 - 把下面地址复制进去即可
 
 ### 安卓 SS/SSR 去广告ACL规则
 
@@ -81,15 +86,18 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 
 可在高级设置中添加那些网站想通过代理，那些直连
 
-直接复制进去即可，重启软件，即可
+直接复制进去即可，重启软件，即可（此方法WIN通用）
+
+位置：代理设置 - 编辑PAC用户自定规则
 
 #### 添加自定义规则
 
 <pre>
 ! Put user rules line by line in this file.
 ! See https://adblockplus.org/en/filter-cheatsheet
+
+! //全部走代理
 ||dmm.jp^
-||smusic.cc^
 ||gfw.press^
 ||adobe.com^
 ||pornhub.com^
@@ -97,12 +105,11 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 ||behance.net^
 ||pinterest.com^
 ||500px.com^
-||ssrcc.cc^
 ||ccava.cc^
 ||smusic.life^
 ||smusicc.com^
 
-！通配符支持
+! 通配符支持//全部走代理
  *.example.com/*
  *.pornhub.com/*
  *.github.io/*
@@ -110,8 +117,10 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
  *.smusic.life/*
  *.ccava.cc/*
  *.smusicc.com/*
+ *.pinterest.com/*
+ *.behance.net/*
 
-！满足@@后规则的地址不使用代理
+! 满足@@后规则的地址//不使用代理
 @@*.example.com/*
 @@*.qq.com/*
 @@*.weixin.com/*
