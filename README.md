@@ -8,7 +8,7 @@
 
 # WIN7/10客户端
 
-SSR-WIN：
+SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/ssr-win..7z
 
 ### 用户自定义规则
 
