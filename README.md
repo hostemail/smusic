@@ -17,9 +17,9 @@ SS：https://github.com/shadowsocks
 
 实际上 SSR 安卓客户端中的 ACL 和 代理规则 – 用户自定义 是一样的。
 
-* 文件位置：
+文件位置：
 
-代理规则 – 用户自定义 的规则文件是 ShadowsocksR.exe 客户端文件同目录下的 user.rule 文件（如果没有自己新建）。
+* 代理规则 – 用户自定义 的规则文件是 ShadowsocksR.exe 客户端文件同目录下的 user.rule 文件（如果没有自己新建）。
 
 下方地址中的内容，复制进去就好了：
 
@@ -29,7 +29,7 @@ SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/ma
 
 # IOS客户端
 
-精简版
+* 精简版
 
 用于Surge/Shadowrcket_URL导入方式，阉割了节点定制以及功能开关，其他部分大致相同
 
