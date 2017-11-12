@@ -6,6 +6,10 @@
 
 客户端下载：http://smusic.ys168.com
 
+### 规则可达到的效果
+
+屏蔽广告/国内外自动分流/自定义网站规则（直连OR代理）/拦截运营商劫持/保护隐私
+
 # WIN7/10客户端
 
 SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/ssr-win..7z
