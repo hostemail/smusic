@@ -8,6 +8,9 @@
 
 # WIN7/10客户端
 
+SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
+SS：https://github.com/shadowsocks
+
 用户自定义规则
 
 SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
@@ -38,8 +41,9 @@ iOS：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
 
 # 安卓客户端
+SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
-安卓 SS/SSR 去广告ACL规则
+## 安卓 SS/SSR 去广告ACL规则
 
 * 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
@@ -49,7 +53,7 @@ iOS：
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
-# SS/SSR ACL Files Download：
+## SS/SSR ACL Files Download：
 
 ACL更新地址（白名单）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 
@@ -63,11 +67,10 @@ ACL更新地址（国内代理）：https://raw.githubusercontent.com/ACL4SSR/AC
 
 ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
 
-SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
 
-SS：https://github.com/shadowsocks
 
-SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
 
-SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
+
+
+
 
