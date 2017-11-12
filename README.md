@@ -19,11 +19,13 @@ SS：https://github.com/shadowsocks
 
 #### 文件位置：
 
-* 代理规则 – 用户自定义 的规则文件是 ShadowsocksR.exe 客户端文件同目录下的 user.rule 文件（如果没有自己新建）。
+代理规则 – 用户自定义 的规则文件是 ShadowsocksR.exe 
+
+客户端文件同目录下的 user.rule 文件（如果没有自己新建）。
 
 下方地址中的内容，复制进去就好了：
 
-SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
+SSR GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
 
 注意：每次修改规则文件后，都需要 重启SSR客户端 才能应用最新规则。
 
