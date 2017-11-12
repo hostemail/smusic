@@ -1,6 +1,6 @@
 # 网络代理软件客户端教程
 
-博客：https://ccava.c
+博客：https://ccava.cc
 
 服务地址：https://smusicc.com
 
@@ -44,8 +44,30 @@ iOS：
 * 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
 * 屏蔽常用视频网站广告
-屏蔽常用网站广告、其他流媒体网站广告
-屏蔽部分应用程序开屏广告
-屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
-拦截常用应用程序的隐私跟踪、行为分析、数据统计
+* 屏蔽常用网站广告、其他流媒体网站广告
+* 屏蔽部分应用程序开屏广告
+* 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
+* 拦截常用应用程序的隐私跟踪、行为分析、数据统计
+
+# SS/SSR ACL Files Download：
+
+ACL更新地址（白名单）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
+
+ACL更新地址（黑名单）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
+
+ACL更新地址（全局）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/onlybanAD.acl
+
+ACL更新地址（仅GFWList）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/fullgfwlist.acl
+
+ACL更新地址（国内代理）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
+
+ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
+
+SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-user.rule
+
+SS：https://github.com/shadowsocks
+
+SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
+
+SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
