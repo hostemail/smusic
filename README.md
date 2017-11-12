@@ -8,8 +8,7 @@
 
 # WIN7/10客户端
 
-SSR-WIN：https://github.com/shadowsocksr/shadowsocksr-csharp/releases
-SS：https://github.com/shadowsocks
+SSR-WIN：
 
 ### 用户自定义规则
 
