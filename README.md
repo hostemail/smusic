@@ -17,7 +17,7 @@ SS：https://github.com/shadowsocks
 
 实际上 SSR 安卓客户端中的 ACL 和 代理规则 – 用户自定义 是一样的。
 
-文件位置：
+#### 文件位置：
 
 * 代理规则 – 用户自定义 的规则文件是 ShadowsocksR.exe 客户端文件同目录下的 user.rule 文件（如果没有自己新建）。
 
@@ -29,7 +29,7 @@ SSR C# GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/ma
 
 # IOS客户端
 
-* 精简版
+### 精简版
 
 用于Surge/Shadowrcket_URL导入方式，阉割了节点定制以及功能开关，其他部分大致相同
 
@@ -39,7 +39,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 导入后请务必安装证书
 
-## MitM证书安装
+### MitM证书安装
 
 简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
 
@@ -53,7 +53,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 # 安卓客户端
 SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 
-## 安卓 SS/SSR 去广告ACL规则
+### 安卓 SS/SSR 去广告ACL规则
 
 * 屏蔽小米手机和魅族flyme rom系统广告
 * 国内网站均直接连接
@@ -63,7 +63,7 @@ SSR-安卓：https://github.com/shadowsocksr/shadowsocksr-android/releases
 * 屏蔽部分运营商劫持网页弹出的漂浮球广告、流量统计
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
-## SS/SSR ACL Files Download：
+### SS/SSR ACL Files Download：
 
 ACL更新地址（白名单）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 
@@ -77,9 +77,51 @@ ACL更新地址（国内代理）：https://raw.githubusercontent.com/ACL4SSR/AC
 
 ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
 
+# MacOS客户端
 
-### 参考
+可在高级设置中添加那些网站想通过代理，那些直连
+
+直接复制进去即可，重启软件，即可
+
+#### 添加自定义规则
+
+<pre>
+! Put user rules line by line in this file.
+! See https://adblockplus.org/en/filter-cheatsheet
+||dmm.jp^
+||smusic.cc^
+||gfw.press^
+||adobe.com^
+||pornhub.com^
+||eroshare.com^
+||behance.net^
+||pinterest.com^
+||500px.com^
+||ssrcc.cc^
+||ccava.cc^
+||smusic.life^
+||smusicc.com^
+
+！通配符支持
+ *.example.com/*
+ *.pornhub.com/*
+ *.github.io/*
+ *.500px.com/*
+ *.smusic.life/*
+ *.ccava.cc/*
+ *.smusicc.com/*
+
+！满足@@后规则的地址不使用代理
+@@*.example.com/*
+@@*.qq.com/*
+@@*.weixin.com/*
+@@*.baidu.com/*
+@@*.youku.com/*
+</pre>
+
+## 参考
 https://github.com/ACL4SSR/ACL4SSR
+
 https://github.com/lhie1/Surge#mitm
 
 
