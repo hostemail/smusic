@@ -14,13 +14,13 @@
 
 SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/ssr-win..7z
 
-#### 用户自定义规则
+### 用户自定义规则
 
 改用 【用户自定义】 代理规则（系统代理模式选择全局，浏览器扩展也设置 127.0.0.1 1080(默认端口)）
 
 实际上 SSR 安卓客户端中的 ACL 和 代理规则 – 用户自定义 是一样的。
 
-#### 文件位置：
+### 文件位置：
 
 代理规则 – 用户自定义 的规则文件是 ShadowsocksR.exe 
 
@@ -42,13 +42,13 @@ Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
 
-#### 使用方法
+### 使用方法
 
 打开软件 - 配置 - 点击右上角“+” - 输入上面的地址 - 点击下载 - 选择
 
 导入后请务必安装证书
 
-#### MitM证书安装
+### MitM证书安装
 
 简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
 
