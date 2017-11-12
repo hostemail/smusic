@@ -42,6 +42,10 @@ Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
 
+### 使用方法
+
+打开软件 - 配置 - 点击右上角“+” - 输入上面的地址 - 点击下载 - 选择
+
 导入后请务必安装证书
 
 ### MitM证书安装
