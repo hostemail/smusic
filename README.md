@@ -13,6 +13,11 @@
 # WIN7/10客户端
 
 SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/ssr-win..7z
+### PAC模式自定义规则
+
+在用户使用PAC模式的前提下，可在菜单<pre>PAC</pre> 下选择 编辑GFWlist规则
+
+参考MAC编辑方法
 
 ### 用户自定义规则
 
@@ -93,7 +98,7 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 
 # MacOS客户端
 
-可在高级设置中添加那些网站想通过代理，那些直连
+可在高级设置中添加那些网站想通过代理，那些直连（前提是使用PAC模式）
 
 ### 使用方法
 
