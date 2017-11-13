@@ -15,21 +15,21 @@
 SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/ssr-win..7z
 ### PAC模式自定义规则
 
-在用户使用PAC模式的前提下，可在菜单<pre>PAC</pre> 下选择 编辑GFWlist规则
+在用户使用`PAC模式`的前提下，可在菜单`PAC` 下选择 `编辑GFWlist规则`
 
 参考MAC编辑方法
 
 ### 用户自定义规则
 
-改用 【用户自定义】 代理规则（系统代理模式选择全局，浏览器扩展也设置 127.0.0.1 1080(默认端口)）
+改用 `用户自定义` 代理规则（系统代理模式选择全局，浏览器扩展也设置 127.0.0.1 1080(默认端口)）
 
 实际上 SSR 安卓客户端中的 ACL 和 代理规则 – 用户自定义 是一样的。
 
 ### 文件位置：
 
-代理规则 – 用户自定义 的规则文件是 ShadowsocksR.exe 
+`代理规则` – `用户自定义` 的规则文件是 ShadowsocksR.exe 
 
-客户端文件同目录下的 user.rule 文件（如果没有自己新建）。
+客户端文件同目录下的 `user.rule` 文件（如果没有自己新建）。
 
 下方地址中的内容，复制进去就好了：
 
@@ -70,7 +70,7 @@ SSR-安卓：https://github.com/smusicsanshu/smusic/blob/master/5hadow5ocksr-and
 
 ### 使用方法
 
-在软件首页 - 路由设置 - 自定义ACL文件 - 把下面地址复制进去即可
+在软件首页 - `路由设置` - `自定义ACL文件` - 把下面地址`复制`进去即可
 
 ### 安卓 SS/SSR 去广告ACL规则
 
@@ -98,7 +98,7 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 
 # MacOS客户端
 
-可在高级设置中添加那些网站想通过代理，那些直连（前提是使用PAC模式）
+可在高级设置中添加那些网站想通过代理，那些直连`（前提是使用PAC模式）`
 
 ### 使用方法
 
