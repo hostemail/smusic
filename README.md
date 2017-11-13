@@ -17,7 +17,7 @@ SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/ssr-win..7z
 
 在用户使用`PAC模式`的前提下，可在菜单`PAC` 下选择 `编辑GFWlist规则`
 
-参考MAC编辑方法
+参考[MAC编辑方法](https://github.com/smusicsanshu/smusic/blob/master/README.md#macos客户端)
 
 ### 用户自定义规则
 
