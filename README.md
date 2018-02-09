@@ -71,9 +71,9 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 ### 黑名单过滤 + 广告
 黑名单中包含了境外网站中无法访问的那些，对不确定的网站则默认直连。
 
-代理：top500 网站中不可直连的境外网站
-直连：默认直连境外其余网站、中国网站
-包含广告过滤
+- 代理：top500 网站中不可直连的境外网站
+- 直连：默认直连境外其余网站、中国网站
+- 包含广告过滤
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf
 
 
@@ -81,9 +81,9 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 ### 白名单过滤 + 广告
 白名单中包含了境外网站中可以访问的那些，对不确定的网站则默认代理。
 
-直连：top500 网站中可直连的境外网站、中国网站
-代理：默认代理其余的所有境外网站
-包含广告过滤
+- 直连：top500 网站中可直连的境外网站、中国网站
+- 代理：默认代理其余的所有境外网站
+- 包含广告过滤
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf
 
 
@@ -91,9 +91,9 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 ### 黑名单过滤
 现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
 
-代理：top500 网站中不可直连的境外网站
-直连：默认直连境外其余网站、中国网站
-不包含广告过滤
+- 代理：top500 网站中不可直连的境外网站
+- 直连：默认直连境外其余网站、中国网站
+- 不包含广告过滤
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf
 
 
@@ -101,9 +101,9 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 ### 白名单过滤
 现在很多浏览器都自带了广告过滤功能，而广告过滤的规则其实较为臃肿，如果你不需要全局地过滤 App 内置广告和视频广告，可以选择这个不带广告过滤的版本。
 
-直连：top500 网站中可直连的境外网站、中国网站
-代理：默认代理其余的所有境外网站
-不包含广告过滤
+- 直连：top500 网站中可直连的境外网站、中国网站
+- 代理：默认代理其余的所有境外网站
+- 不包含广告过滤
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf
 
 
