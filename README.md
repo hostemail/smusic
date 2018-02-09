@@ -74,6 +74,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 - 代理：top500 网站中不可直连的境外网站
 - 直连：默认直连境外其余网站、中国网站
 - 包含广告过滤
+
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf
 
 
@@ -84,6 +85,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 - 直连：top500 网站中可直连的境外网站、中国网站
 - 代理：默认代理其余的所有境外网站
 - 包含广告过滤
+
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist_ad.conf
 
 
@@ -94,6 +96,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 - 代理：top500 网站中不可直连的境外网站
 - 直连：默认直连境外其余网站、中国网站
 - 不包含广告过滤
+
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist.conf
 
 
@@ -104,6 +107,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 - 直连：top500 网站中可直连的境外网站、中国网站
 - 代理：默认代理其余的所有境外网站
 - 不包含广告过滤
+
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_whitelist.conf
 
 
@@ -125,6 +129,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 - 直连：所有请求
 - 包含广告过滤
+
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf
 
 ### 代理去广告
@@ -133,6 +138,7 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 - 直连：局域网请求
 - 代理：其余所有请求
 - 包含广告过滤
+
 规则地址：https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_proxy_banad.conf
 
 导入后请务必安装证书
@@ -147,8 +153,6 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
-
------
 
 
 # 安卓客户端
