@@ -2,13 +2,28 @@
 
 博客：https://ccava.cc
 
-服务购买：https://smusicc.com
+服务购买：https://smusic.life
 
 客户端下载：http://smusic.ys168.com
 
 ### 规则可达到的效果
 
 屏蔽广告/国内外自动分流/自定义网站规则（直连OR代理）/拦截运营商劫持/保护隐私
+
+# 常见问题
+
+- 上千行的代理规则，会对上网速度产生影响吗？
+> 不会的。我之前也认为这是一个每次网络数据包经过都会执行一次的规则文件，逐行匹配规则，所以需要尽可能精简。但后来和 SR 作者交流后发现这是一个误区，SR 在每次加载规则时都会生成一棵搜索树，可以理解为对主机名从后往前的有限状态机 DFA，并不是逐行匹配，并且对每次的匹配结果还有个哈希缓存。
+
+换句话说，2000 行的规则和 50 行的规则在 SR 中均为同一量级的时间复杂度 O(1)。
+
+- 你提供了这么多规则，如何选择适合我的？
+> 黑白名单区别在于对待 境外冷门网站 的不同，黑名单默认直连，而白名单则默认使用代理。前者可能会有被墙的情况出现。后者不会出现无法翻墙的情况，但也许会使用代理去连接原本可以直连的网站，速度变慢，当然，如果你的翻墙服务器速度不低于直连，就果断使用白名单吧。
+
+如果你选择恐惧症爆发，那就两个都下载好了，黑白名单在手，天下无忧。
+
+- 广告过滤不完全？
+> 该规则并不保证 100% 过滤所有的广告，尤其是视频广告，与网页广告不同的是，优酷等 App 每次升级都有可能更换一次广告策略，因此难以保证其广告屏蔽的实时有效性。
 
 # WIN7/10客户端
 
@@ -39,6 +54,8 @@ SSR GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/maste
 
 # IOS客户端
 
+提供多款 Shadowrocket 规则，带广告过滤功能。用于 iOS 未越狱设备选择性地自动翻墙。
+
 ### 精简版
 
 用于Surge/Shadowrcket_URL导入方式，阉割了节点定制以及功能开关，其他部分大致相同
@@ -46,6 +63,8 @@ SSR GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/maste
 Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
+
+-------
 
 ### 使用方法
 
@@ -63,6 +82,9 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 2. 信任：
 设置 - 通用 - 关于本机 - 证书信任设置 - 信任
+
+-----
+
 
 # 安卓客户端
 
@@ -152,5 +174,5 @@ https://github.com/ACL4SSR/ACL4SSR
 
 https://github.com/lhie1/Surge#mitm
 
-
+https://github.com/smusicsanshu/Shadowrocket-ADBlock-Rules
 
