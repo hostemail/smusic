@@ -54,7 +54,7 @@ SSR GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/maste
 
 提供多款 Shadowrocket 规则，带广告过滤功能。用于 iOS 未越狱设备选择性地自动翻墙。
 
-### 精简版
+### 精简版(推荐)
 
 用于Surge/Shadowrcket_URL导入方式，阉割了节点定制以及功能开关，其他部分大致相同
 
