@@ -215,20 +215,19 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 ||behance.net^
 ||pinterest.com^
 ||500px.com^
-||ccava.cc^
+||1x.com^
 ||smusic.life^
-||smusicc.com^
+||dribbble.com^
 
 ! 通配符支持//全部走代理
  *.example.com/*
  *.pornhub.com/*
  *.github.io/*
  *.500px.com/*
- *.smusic.life/*
- *.ccava.cc/*
- *.smusicc.com/*
  *.pinterest.com/*
  *.behance.net/*
+ *.dribbble.com/*
+ *.1x.com/*
 
 ! 满足@@后规则的地址//不使用代理
 @@*.example.com/*
