@@ -206,7 +206,9 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 ! See https://adblockplus.org/en/filter-cheatsheet
 ! Homepage: https://smusicc.com/
 
+
 ! //全部走代理
+
 ||dmm.jp^
 ||gfw.press^
 ||adobe.com^
@@ -215,26 +217,33 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 ||behance.net^
 ||pinterest.com^
 ||500px.com^
-||1x.com^
-||smusic.life^
+||huobi.com^
 ||dribbble.com^
+||pixiv.net^
+||1x.com^
 
 ! 通配符支持//全部走代理
- *.example.com/*
- *.pornhub.com/*
- *.github.io/*
- *.500px.com/*
- *.pinterest.com/*
- *.behance.net/*
- *.dribbble.com/*
- *.1x.com/*
 
-! 满足@@后规则的地址//不使用代理
+*.example.com/*
+*.pornhub.com/*
+*.github.io/*
+*.500px.com/*
+*.pinterest.com/*
+*.behance.net/*
+*.huobi.com/*
+*.dribbble.com/*
+*.pixiv.net/*
+*.1x.com/*
+
+
+
+！满足@@后规则的地址不使用代理
 @@*.example.com/*
 @@*.qq.com/*
 @@*.weixin.com/*
 @@*.baidu.com/*
 @@*.youku.com/*
+@@*.taobao.com/*
 </pre>
 
 ## 参考
