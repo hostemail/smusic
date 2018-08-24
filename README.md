@@ -193,7 +193,7 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 <pre>
 ! Put user rules line by line in this file.
 ! See https://adblockplus.org/en/filter-cheatsheet
-! Homepage: https://smusicc.com/
+! Homepage: https://smusic.life/
 
 
 ! //全部走代理
