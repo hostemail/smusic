@@ -143,17 +143,6 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 
 导入后请务必安装证书
 
-### MitM证书安装
-
-简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
-
-1. 安装：
-* Surge：配置 - 编辑配置 - HTTPS 解密 - 安装证书
-* Shadowrocket：设置 - 证书 - 安装证书
-
-2. 信任：
-设置 - 通用 - 关于本机 - 证书信任设置 - 信任
-
 
 # 安卓客户端
 
@@ -221,6 +210,7 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 ||dribbble.com^
 ||pixiv.net^
 ||1x.com^
+||pinterest.ru^
 
 ! 通配符支持//全部走代理
 
@@ -234,7 +224,7 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 *.dribbble.com/*
 *.pixiv.net/*
 *.1x.com/*
-
+*.pinterest.ru/*
 
 
 ！满足@@后规则的地址不使用代理
@@ -246,7 +236,7 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 @@*.taobao.com/*
 </pre>
 
-## 参考
+## 感谢以下作者
 https://github.com/ACL4SSR/ACL4SSR
 
 https://github.com/lhie1/Surge#mitm
