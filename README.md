@@ -2,7 +2,7 @@
 
 博客：https://ccava.cc
 
-服务购买：https://smusic.life
+服务购买：https://artcloud.club
 
 客户端下载：http://smusic.ys168.com
 
