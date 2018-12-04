@@ -62,6 +62,10 @@ Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
 
+Quantumult_分流：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
+
+Quantumult_拒绝：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
+
 -------
 
 ### 使用方法
