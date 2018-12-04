@@ -71,6 +71,7 @@ Quantumult_链接阻止：https://raw.githubusercontent.com/lhie1/Rules/master/Q
 ### 使用方法
 
 Shadowrocket：打开软件 - 配置 - 点击右上角“+” - 输入上面的地址 - 点击下载 - 选择
+
 Quantumult：设置 - 订阅 - 点击右上角“+”  - 分流/链接阻止 - 左滑 - 替换
 
 ### MitM
