@@ -57,7 +57,7 @@ SSR GFWList user.rule ：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/maste
 ### 精简版(推荐)
 
 用于Surge/Shadowrcket_URL导入方式，阉割了节点定制以及功能开关，其他部分大致相同
-
+```
 Surge：https://raw.githubusercontent.com/lhie1/Surge/master/Surge.conf
 
 Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket.conf
@@ -65,15 +65,15 @@ Shadowrocket：https://raw.githubusercontent.com/lhie1/Surge/master/Shadowrocket
 Quantumult_分流：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult.conf
 
 Quantumult_链接阻止：https://raw.githubusercontent.com/lhie1/Rules/master/Quantumult/Quantumult_URL.conf
-
+```
 -------
 
 ### 使用方法
-
+```
 Shadowrocket：打开软件 - 配置 - 点击右上角“+” - 输入上面的地址 - 点击下载 - 选择
 
 Quantumult：设置 - 订阅 - 点击右上角“+”  - 分流/链接阻止 - 左滑 - 替换
-
+```
 ### MitM
 
 简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
