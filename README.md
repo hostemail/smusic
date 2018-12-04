@@ -193,10 +193,10 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 <pre>
 ! Put user rules line by line in this file.
 ! See https://adblockplus.org/en/filter-cheatsheet
-! Homepage: https://smusic.life/
+! Homepage:https://artcloud.club
 
 
-! //全部走代理
+! 强制以下网站走代理-自己需要走代理的网站-照猫画虎添加即可
 
 ||dmm.jp^
 ||gfw.press^
@@ -211,8 +211,10 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 ||pixiv.net^
 ||1x.com^
 ||pinterest.ru^
+||pinterest.ca^
+||sofadreams.com^
 
-! 通配符支持//全部走代理
+! 通配符支持-全部走代理
 
 *.example.com/*
 *.pornhub.com/*
@@ -224,16 +226,31 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 *.dribbble.com/*
 *.pixiv.net/*
 *.1x.com/*
+*.worldpay.com/*
+*.envoytransfers.com/*
+*.googlevideo.com/*
+*.91porn.com/*
+*.phncdn.com/*
+*.brazzerscontent.com/*
+*.p03.space/*
+*.gemius.pl/*
+*.gstatic.com/*
+*.uptodown.com/*
+*.net-chinese.com.tw/*
+*.adobe.com/*
+*.tvb.com/*
+*.sofadreams.com/*
+*.amazon.co.jp/*
+*.pinterest.ca/*
 *.pinterest.ru/*
 
+! 满足规则的地址-不使用代理
 
-！满足@@后规则的地址不使用代理
 @@*.example.com/*
 @@*.qq.com/*
 @@*.weixin.com/*
 @@*.baidu.com/*
 @@*.youku.com/*
-@@*.taobao.com/*
 </pre>
 
 ## 感谢以下作者
