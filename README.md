@@ -95,7 +95,7 @@ iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书�
 
 # 安卓客户端
 
-SSR-安卓：`https://github.com/smusicsanshu/smusic/blob/master/ssr-android/%E3%80%90%E5%AE%89%E5%8D%93%E3%80%91shadowsocksr-3.4.0.7%EF%BC%88%E7%A8%B3%E5%AE%9A%E7%89%88%EF%BC%89.apk`
+SSR-安卓：https://github.com/smusicsanshu/smusic/blob/master/ssr-android/%E3%80%90%E5%AE%89%E5%8D%93%E3%80%91shadowsocksr-3.4.0.7%EF%BC%88%E7%A8%B3%E5%AE%9A%E7%89%88%EF%BC%89.apk
 
 ### 使用方法
 
