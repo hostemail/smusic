@@ -112,7 +112,7 @@ SSR-安卓：https://github.com/smusicsanshu/smusic/blob/master/5hadow5ocksr-and
 * 拦截常用应用程序的隐私跟踪、行为分析、数据统计
 
 ### SS/SSR ACL Files Download：
-
+```
 ACL更新地址（白名单）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/banAD.acl
 
 ACL更新地址（黑名单）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/gfwlist-banAD.acl
@@ -124,7 +124,7 @@ ACL更新地址（仅GFWList）：https://raw.githubusercontent.com/ACL4SSR/ACL4
 ACL更新地址（国内代理）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/backcn-banAD.acl
 
 ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/nobanAD.acl
-
+```
 # MacOS客户端
 
 可在高级设置中添加那些网站想通过代理，那些直连`（前提是使用PAC模式）`
