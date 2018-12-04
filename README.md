@@ -25,7 +25,7 @@
 
 # WIN7/10客户端
 
-SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/ssr-win..7z
+SSR-WIN：https://github.com/smusicsanshu/smusic/blob/master/win/%5BWIN%5D-SSR-4.8.0.zip
 ### PAC模式自定义规则
 
 在用户使用`PAC模式`的前提下，可在菜单`PAC` 下选择 `编辑GFWlist规则`
