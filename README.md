@@ -2,8 +2,6 @@
 
 博客：https://ccava.cc
 
-服务购买：https://artcloud.club
-
 客户端下载：http://smusic.ys168.com
 
 ### 规则可达到的效果
