@@ -158,6 +158,8 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 ||huobi.com^
 ||dribbble.com^
 ||pixiv.net^
+||pixiv.org^
+||pximg.net^
 ||1x.com^
 ||pinterest.ru^
 ||pinterest.ca^
@@ -174,6 +176,9 @@ ACL更新地址（白名单，无去广告）：https://raw.githubusercontent.co
 *.huobi.com/*
 *.dribbble.com/*
 *.pixiv.net/*
+*.pixiv.org/*
+*.pximg.net/*
+*.ax1x.com/*
 *.1x.com/*
 *.worldpay.com/*
 *.envoytransfers.com/*
