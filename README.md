@@ -73,6 +73,24 @@ Quantumult_链接阻止：https://raw.githubusercontent.com/lhie1/Rules/master/Q
 Shadowrocket：打开软件 - 配置 - 点击右上角“+” - 输入上面的地址 - 点击下载 - 选择
 Quantumult：设置 - 订阅 - 点击右上角“+”  - 分流/链接阻止 - 左滑 - 替换
 
+### MitM
+
+简介：MitM（即 Man-in-the-middle attack，用于解密 HTTPS 的流量）
+
+```
+iOS 9 以上的系统都需要在安装证书后到关于本机里信任证书才可使其证书有效。
+
+1. 安装：
+* Surge：配置 - 编辑配置 - HTTPS 解密 - 安装证书
+* Shadowrocket：设置 - 证书 - 安装证书
+* Quantumult：Settings - HTTPS - HTTPS Decryption
+
+2. 信任：
+设置 - 通用 - 关于本机 - 证书信任设置 - 信任
+
+备注：只需要安装并信任一次，使用 JSBox 升级规则丝毫不会影响证书。
+备注：不要自己去生成新证书，会导致规则与证书不匹配导致 MitM 失效直接导致无法加载的问题，导出规则后直接安装并信任就可以了。如果不小心点到了，重新运行 JSBox 导出规则即可正确安装。
+```
 
 # 安卓客户端
 
